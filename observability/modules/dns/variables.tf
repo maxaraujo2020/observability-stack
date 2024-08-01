@@ -1,0 +1,12 @@
+variable "project" {}
+variable "environment" {}
+variable "region" {}
+variable "grafana_dns_name" {}
+variable "opensearch_dns_name" {}
+variable "prometheus_dns_name" {}
+variable "nodeexporter_dns_name" {}
+variable "grafana_lb_zone_id" {}
+variable "prometheus_lb_zone_id" {}
+variable "nodeexporter_lb_zone_id" {}
+variable "opensearch_lb_zone_id" {}
+variable "zone_name" {}
